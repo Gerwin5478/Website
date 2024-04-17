@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.aboutpage{
+    position: relative;bottom: 2850px;
+    width: 100%;
+    height: 1900px;
+    margin-bottom: 500px;
+    background-color: white;
+    background-size: cover;
+    background-image: url(abstract-blue-light-pipe-speed-zoom-black-background-technology_1142-9980\ -\ Copy.avif);
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: black;
+    visibility: hidden;
+    
+}
+.Logo{
+    font-size: 50px;
+    
+    color: white;
+    float: left;
+}
+.Logo1{
+    font-size: 50px;
+    animation: Logo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    color: white;
+    float: left;
+}
+
+@keyframes Logo{
+            50% {color: aqua;}
+            100%{color: white;}
+}
+body{
+    background-image: url(abstract-blue-light-pipe-speed-zoom-black-background-technology_1142-9980\ -\ Copy.avif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.profile{
+    width: 100%;
+    scale: .5;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    border-width: 15px;
+    position: relative;top: 200px;
+    animation: border1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes border1 {
+            15% {border-color: purple;}
+            30% {border-color: blueviolet}
+            45% {border-color: blue;}
+            60% {border-color: rgb(0, 149, 255);}
+            75% {border-color: rgb(0, 208, 255);}
+            90% {border-color: rgb(0, 255, 170);}
+            
+}
+.header{
+    font-size: 120px;
+    text-align: center;
+    position: relative;bottom: 750px;
+    color: white;
+    background-image: none;
+    animation: header1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes header1 {
+            15% {color: purple;}
+            30% {color: blueviolet}
+            45% {color: blue;}
+            60% {color: rgb(0, 149, 255);}
+            75% {color: rgb(0, 208, 255);}
+            90% {color: rgb(0, 255, 170);}
+}
+
+.msg1{
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    background-image: none;
+    
+    }
+.popup{
+    width: 100%;
+    height: 1900px;
+    margin-bottom: 500px;
+    background-color: white;
+    background-size: cover;
+    position: relative;bottom: 400px;
+    background-image: url(abstract-blue-light-pipe-speed-zoom-black-background-technology_1142-9980\ -\ Copy.avif);
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: black;
+    visibility: hidden;
+    }
+
+.open-popup{
+    visibility: visible ;
+}
+
+.homebutton{
+    position: relative;bottom: 1455px;left: 175px;
+        font-size: 40px;
+        background-color: transparent;
+        color:white ;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+.homebutton:hover{
+        color: gray;
+        border-bottom-width: 5px;
+        border-bottom-color: aqua;
+    }
+.homebutton:focus{
+    border-bottom-width: 5px;
+    border-style: solid;
+    border-bottom-color: aqua;
+    color: gray;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    }
+
+
+.btn{
+    position: relative;left: 800px;bottom: 1455px;
+    font-size: 40px;
+    color: white;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    cursor: pointer;
+}
+.btn:hover{
+    color: gray;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-color: cyan;
+}
+.btn:focus{
+    color: gray;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-color: cyan;
+}
+.q1{
+    width: 100px;
+    margin-top: 50px;
+    position: relative;bottom: px;
+    
+}
+.q6{
+    width: 100px;
+    position: relative;bottom:px;left: 300px;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    position: relative;bottom: 20px;
+    margin-top: 50px;
+}
+.p1{
+    width: 400px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+
+}
+.q2{
+    width: 150px;
+    border-radius: 50%;
+    position: relative;left: 80px;top: 200px;
+
+}
+.q3{
+    width: 150px;
+    border-radius: 50%;
+    position: relative;left:120px ;top: 200px;
+}
+.q4{
+    width: 150px;
+    border-radius: 50%;
+    position: relative;right: 420px;top: 200px;
+}
+.q5{    
+    width: 150px;;
+    border-radius: 50%;
+    position: relative;left: 10px;top: 200px;
+}
+.about{
+    position: relative;top: -1455px;left:215px;
+    font-size: 40px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    background-color: transparent;
+}
+.about:hover{
+    border-bottom-width: 5px;
+    border-style: solid;
+    border-bottom-color: aqua;
+    color: gray;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    
+}
+.about:focus{
+    border-bottom-width: 5px;
+    border-style: solid;
+    border-bottom-color: aqua;
+    color: gray;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+}
+.services{
+    position: relative;top: -1455px;left:250px;
+    font-size: 40px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    background-color: transparent;
+}
+.services:hover{
+    border-bottom-width: 5px;
+    border-style: solid;
+    border-bottom-color: aqua;
+    color: gray;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+}
+.services:focus{
+    border-bottom-width: 5px;
+    border-style: solid;
+    border-bottom-color: aqua;
+    color: gray;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+}
+
+
+.delete{
+    visibility: hidden;
+}
+
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) {
+    body{
+        overflow: visible;
+        
+    }
+
+    .btn{
+        position: relative;bottom: 1370px;
+    }
+    .homebutton{
+        position: relative;bottom: 1370px;
+    }
+    .services{
+        position: relative;top:-1370px;
+    }
+    .about{
+        position: relative;top: -1370px ;
+    }
+    .container{
+        height: 0px;
+    }
+    .popup{
+        position: relative;top: -300px;
+    }
+
+    
+}
+
+
+@media only screen  and (min-width:1024px) {
+    body{
+        background-image: url(abstract-blue-light-pipe-speed-zoom-black-background-technology_1142-9980.avif);
+        background-color: white;
+        background-size: cover;
+        overflow: hidden;
+        
+    }
+
+    button{
+        font-size:30px;
+        position: relative;bottom: 1850px;left: 500px;
+        margin-left: 30px;
+    }
+    .header{
+        position: relative;bottom: 1350px;left: 130px;
+        
+    }
+    .profile{
+        scale: .2;
+        position: relative;top: -375px ;right: 575px;
+    }
+    .msg1{
+        position: relative;bottom: 1300px;left: 120px;
+    }
+    .btn{
+        position: relative;bottom: 1870px;left: 1100px;
+    }
+    .homebutton{
+        position: relative;bottom: 1870px;left: 440px;
+    }
+    .services{
+        position: relative;top: -1870px;left: 460px;
+    }
+    .about{
+        position: relative;top: -1870px;left: 450px;
+    }   
+    .popup{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 500px;
+        background-color: white;
+        background-size: cover;
+        position: relative;bottom: 1350px;
+        background-image: url(abstract-blue-light-pipe-speed-zoom-black-background-technology_1142-9980.avif);
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        padding: 0 30px 30px;
+        color: black;
+        visibility: hidden;
+    }
+    .open-popup{
+        visibility: visible ;
+    }
+    .p1{
+        scale: .7;
+        position: relative;bottom: 50px;
+    }
+    h1{
+        position: relative;bottom: 170px;
+    }
+    .q1{
+        position: relative;bottom: 235px;
+        scale: .5;
+    }
+    .h1a{
+        position: relative;top: -320px;
+        scale: .5;
+    }
+    .q2{
+        scale: .5;
+        position: relative;top: -350px;left: 140px;
+    }
+    .q3{
+        scale: .5;
+        position: relative;top: -350px;left: 80px;
+    }
+    .q4{
+        scale: .5;
+        position: relative;top: -350px;left: -265px;
+    }
+    .q5{
+        scale: .5;
+        position: relative;top: -350px;left: -130px;
+    }
+    .delete{
+        visibility: hidden;
+    }
+    
+}
